@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: system-ui;
+}
+
+*::before, *::after {
+  box-sizing: inherit;
+}
+
+span, a, label {
+  display: inline-block;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.all {
+  padding: 30px;
+  background-color: silver;
+}
+
+.p {
+  font-size: 20px;
+  line-height: 1.6;
+  font-family: cursive;
+  text-shadow: 0 2px 1px blue;
+  color: red;
+}
+
+.h1 {
+  text-align: center;
+}
+
+.spn {
+  animation: 2s pastga linear infinite;
+  color: black;
+}
+
+@keyframes pastga {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(20px);
+    color: skyblue;
+  }
+}
+.spn1 {
+  animation: 2s pastgaa linear infinite;
+  color: black;
+}
+
+@keyframes pastgaa {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    color: skyblue;
+    transform: translateY(-20px);
+  }
+}
+.spn2 {
+  animation: 2s pastgaaa linear infinite;
+  color: black;
+}
+
+@keyframes pastgaaa {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    color: skyblue;
+    transform: translateY(20px);
+  }
+}/*# sourceMappingURL=main.css.map */
